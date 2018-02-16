@@ -1,0 +1,36 @@
+I first encountered programming in elementary school, so remembering
+how I became interested in programming is about as hard as remembering
+how I became interested in speaking English. What is easier to
+remember is how I became interested in computer science; this interest
+did not develop until after I left high school. I separate these two
+interests because it was only after high school that I began seeking
+another kind of knowledge complementary to my knowledge in writing
+software: I hoped to gain insight into programming language design and
+a deeper understanding of how computers work. An early exercise I
+completed acting on this interest was implementing an infinite grid
+version of Conway's Game of Life from scratch using C, including
+writing my own linked data structures for storing living cells.
+
+This exercise, which took me over a thousand lines of C, can be
+completed using twenty lines of Python code. This time, the point was
+to learn, not neccessarily to produce the most elegant code. I take no
+issue with using standard libraries and higher-level languages when
+appropriate; in fact, my interest in language design has led to me
+doing plenty of that as I investigate questions such as the safety and
+performance tradeoffs between Java's object-oriented style and C++'s
+more template oriented approach.
+
+My skills were put to the test during my astrophysics internship at
+Tsinghua University. As a coder, I was tasked with writing a program
+using C++ and Python that fits a microlensing light curve to data of a
+star's brightness over time. My program consisted of two parts: an
+approximator providing a crude estimate of the curve, and an optimizer
+refining the curve to better fit the data. The optimizer was easy to
+write with the help of SciPy, a well-known Python library. However,
+the approximator, which I adapted from my coworker's code, required
+significant revision using my mathematics knowledge in order to reduce
+the influence of noisy data on the approximation. I left the
+internship with more practice in technical writing, code revision,
+library usage, and applying mathematics, preparing me for upper
+division courses.
+

@@ -1,0 +1,25 @@
+programming.txt:
+
+Please describe how you have prepared for your intended major,
+including your readiness to succeed in your upper-division courses
+once you enroll at the university.
+
+math.txt
+
+Every person has a creative side, and it can be expressed in many
+ways: problem solving, original and innovative thinking, and
+artistically, to name a few. Describe how you express your creative
+side.
+
+psychology.txt
+
+Describe how you have taken advantage of a significant educational
+opportunity or worked to overcome an educational barrier you have
+faced.
+
+high-school-waste-of-time.txt
+
+Describe the most significant challenge you have faced and the steps
+you have taken to overcome this challenge. How has this challenge
+affected your academic achievement?
+

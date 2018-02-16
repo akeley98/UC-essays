@@ -1,0 +1,35 @@
+It's truly unfortunate how many think of mathematics solely as a
+mechanical task, a lowly tool useful only for scientists and
+engineers. Mathematics is undeniably practical, but this fact should
+not distract us from seeing that at its core, mathematics is an art
+form as creatively expressive as any other. Central to any art form
+are choice and emotion; without choice, the author cannot show
+creativity; without emotion, the audience will not recognize it as
+art. A mathematician uses both when constructing a proof, although
+many may not realize it, viewing mathematicians as cartographers
+merely discovering and recording preexisting steps and
+conclusions. True, reality imposes constraints on proofs, in the sense
+that one cannot choose to prove a false conclusion, but the steps a
+proof comprises are an original creation, the product of the author's
+numerous artistic choices.
+
+Consider, for example, two proofs regarding a triangle inscribed in a
+circle, where one edge of the triangle is the circle's diameter. For
+the first proof, we draw a radius dividing the angle opposite the
+diameter into two angles A and B, forming two sub-triangles. Having
+two radii as identical edges, the sub-triangles are isosceles, each
+having two equal angles A or B at the circle's edge. Thus, the
+original triangle has angles A, B, and A+B (the divided angle). Their
+sum, 2A+2B, must equal 180 degrees. Algebraically, the A+B angle
+equals half that, 90 degrees, proving the original triangle is a right
+triangle. For the second proof, we rotate a copy of the triangle 180
+degrees about the center to form a parallelogram whose diagonals are
+both diameters. This parallelogram is rectangular since its diagonals
+are equal, so the original triangle contained within is a right
+triangle. Both proofs lead to the same inevitable conclusion and are
+equal logically; however, they are not equal artistically. The first
+proof elicits a grudging acceptance that the conclusion is not false;
+the second reveals an underlying pattern and illuminates with its
+simplicity. I take pride in mathematics, my chosen art form, and I
+strive to write proofs that are both artistic and logical.
+
