@@ -1,0 +1,9 @@
+# Insert your preferred key mappings here.
+map k performFind
+map j performBackwardsFind
+map d scrollLeft
+map h scrollDown
+map t scrollUp
+map n scrollRight
+map e scrollPageDown
+map <a-b> previousTab
