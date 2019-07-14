@@ -1,0 +1,90 @@
+It's hard to provide constructive criticism on a deadline at 4
+o'clock on a Saturday morning. My friends probably think of me as a
+cynical, sarcastic personality. And it's clear to me that Dr. Eggert
+is an energetic and enthusiastic lecturer who's passionate about
+operating systems, so I feel a bit bad (possibly) exposing said
+personality traits to him in this review. Nevertheless, after taking
+three courses with Dr. Eggert (35L, 131, and 111), each time feeling
+so thoroughly exhausted and yet so thouroughly unenlightened, it's
+more-or-less impossible to walk away with an overall impression other
+than "quite unfavourable". Since I too am passionate about computer
+science and learning (despite my personality), I'd like to use the
+short time I have to at least try to explain why, hopefully without
+alienating the reader too much.
+
+I'll be focusing on the homework assignments since, hour-for-hour,
+they are by far the most principal interaction I have with the
+course. I can think of four factors that contribute to the (in my
+opinion) poor reward:effort ratio of the assignments.
+
+* First, the assignments are often unclear or imprecise.
+
+This may seem like a "trivial" issue but is nonetheless a serious
+psychological and practical roadblock to finishing assignments. I
+can't prove a negative, but I'd just like to point out how in other
+courses that use Piazza, Piazza tends to be full of actual learning,
+while for Eggert classes Piazza is saturated with questions about spec
+clarifications, TA "interpretations" of said spec, grading scripts,
+etc.  The imprecision and ambiguity of the assignments is especially
+vexing when juxtaposed with the byte-for-byte no-partial-credit
+grading script policy (A policy which I can't help but feel is
+incredibly disrespectful of students and their attempts to learn).
+
+* Second, and this goes along to some degree with the ambiguity issue,
+some aspects of assignment design just makes homework more difficult
+for no apparent reason.
+
+For example, why was lab 3b defined to take a plain-text filesystem
+"summary" as input, instead of the raw filesystem image as in 3a? I
+know that in theory this is supposed to be easier to understand, but
+in practice this means I now have to learn two systems: the ext2 file
+system and the ambiguously documented "summary" system. And, why is
+lab 4, about security, run on a Beaglebone instead of just a typical
+x64 desktop/seasnet server? It seems to me that the the learning
+experience of writing 5 lines of code calling the mraa library really
+isn't worth the amount of hassle and unreliability brought forth by
+the Beaglebone.
+
+* Third, the connection between the homework assignments and lecture is
+tenuous at best.
+
+The lecture topic often seems not to correspond to the homework topic,
+and when it does, the lecture either lags behind the homework, or the
+lecture is hopelessly focused on detailed design decisions while the
+homework requires a broad "high level" understanding, the two never
+meeting in between.
+
+I am not sure if this is by design in order to promote self-learning,
+but if so, I have a couple of counterarguments. Idealistically,
+perhaps you're loathe to view lecture as a tool to help complete
+homework assignments, but view it from the opposite angle: shouldn't
+homework assignments help support and refine students' understanding
+of what's discussed in lecture? Pragmatically, this reliance on self-
+learning in practice just leads to me debugging every homework
+assignment into existence without really understanding what the heck
+I'm doing. (This compounds the ambiguous assignment problem I
+mentioned earlier: another source of "debugging into existence" is the
+endless trial-and-error process of reverese engineering the TA's
+"interpretation" of the assignment through his/her test script). The
+assignments would take less time and energy AND be more rewarding if I
+were equipped with the knowledge beforehand needed to design a proper
+solution to the task.
+
+* 4th, my most important and most abstract reason: most of the
+assignments are just a list of instructions to follow that don't
+exercise any sort of real understanding or critical thinking skills.
+
+Again it is difficult to prove a negative, so perhaps I should give an
+example of something that doesn't suffer from this problem first. The
+simpsh assignment actually fares quite well in this regard: it
+provides an exercise of critical thinking and design skills because
+the spec only really specifies a goal without providing a clear
+"imperative" way to implement the goal.
+
+The other three assignments are, in my opinion, not really programming
+challenges but just a test in your ability to follow instructions
+(which isn't easy, due to the ambiguity mentioned earlier). These
+instructions are things like "insert spin-locks/mutexes here", "read
+this long ext2 document and print out these data", "plug in these two
+devices here and call this mraa function with this pin number", "copy
+SSL code from these slides", etc.
