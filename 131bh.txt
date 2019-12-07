@@ -1,7 +1,50 @@
-This is a difficult review to write and I desperately wish that these reviews, which are so important, be not due right before finals when students have so little time to spare. On the one hand there are some significant issues with the professor that should be addressed. On the other hand there are a number of people who are planning to write some very harsh reviews that I think are totally not justified. Here's the best I can do in my limited time.
+This is a difficult review to write and I desperately wish that these
+reviews, which are so important, be not due right before finals when
+students have so little time to spare. On the one hand there are some
+significant issues with the professor that should be addressed. On the
+other hand there are a number of people who are planning to write some
+very harsh reviews that I think are totally not justified. Here's the
+best I can do in my limited time.
 
-Here's some of the nice things about the course. Integration, differentiation, and function sequences are interesting topics and this fact is hard to disguise. It's great that we're learning from the classics (Baby Rudin) instead of some mystery meat textbook. The professor's own homework questions were a hit-or-miss, but when they're good, they're good. Ones that stand out include the one about one-to-one differentiable functions being monotone (hw1?) the magic function that approximates any given continuous function on some interval [c, c+1] of its domain (hw 6?), and the Dirac Delta questions. The professor seems to care that people understand the lecture and what's going on.
+Here's some of the nice things about the course. Integration,
+differentiation, and function sequences are interesting topics and
+this fact is hard to disguise. It's great that we're learning from the
+classics (Baby Rudin) instead of some mystery meat textbook. The
+professor's own homework questions were a hit-or-miss, but when
+they're good, they're good. Ones that stand out include the one about
+one-to-one differentiable functions being monotone (hw1?) the magic
+function that approximates any given continuous function on some
+interval [c, c+1] of its domain (hw 6?), and the Dirac Delta
+questions. The professor seems to care that people understand the
+lecture and what's going on.
 
-At the same time, one of the significant issues is exactly that the lectures are often unclear. This may in part be because of the severe time limits on what's supposed to be an in-depth honors class, but the proofs presented often have very clever transformations done in between steps that aren't clearly explained. These transformations may be clear once we're experienced and recognize patterns, or when we have time to read the textbook at our own pace, but the lectures are too fast for such thinking; some handholding is needed. Another issue is that the homework was a bit too fast paced. What I mean is not that there's too much homework (definitely not); I mean that (on paper) we only had about 6 days to do the homework, but really we only had like 2 days. The homework's due on Wednesday, but it seemed that it often depended on concepts/hints that only get presented on Monday. I'm stuck then making a tradeoff each week between choosing not to procrastinate and potentially risking wasting my time on the weekend being stuck on homework problems because important information needed for the problem hasn't been presented yet. This is actually a fairly significant issue because all the fun of math gets sucked out when I'm under serious time pressure.
+At the same time, one of the significant issues is exactly that the
+lectures are often unclear. This may in part be because of the severe
+time limits on what's supposed to be an in-depth honors class, but the
+proofs presented often have very clever transformations done in
+between steps that aren't clearly explained. These transformations may
+be clear once we're experienced and recognize patterns, or when we
+have time to read the textbook at our own pace, but the lectures are
+too fast for such thinking; some handholding is needed. Another issue
+is that the homework was a bit too fast paced. What I mean is not that
+there's too much homework (definitely not); I mean that (on paper) we
+only had about 6 days to do the homework, but really we only had like
+2 days. The homework's due on Wednesday, but it seemed that it often
+depended on concepts/hints that only get presented on Monday. I'm
+stuck then making a tradeoff each week between choosing not to
+procrastinate and potentially risking wasting my time on the weekend
+being stuck on homework problems because important information needed
+for the problem hasn't been presented yet. This is actually a fairly
+significant issue because all the fun of math gets sucked out when I'm
+under serious time pressure.
 
-The issue that everyone is talking about, of course, is that the professor reacts in a way that seems cold to questions and people asking for help. I don't think that this indicates what the professor really feels and I feel bad pointing it out because maybe the professor can't do anything about it. But, that's just how it be. Pragmatically, I think the professor should at least try to minimize sighing. At the same time I want to say again that some people are planning to write harsh character judgments of the professor that I think are not reasonable at all; the professor tried her best to welcome questions and that should be acknowledged.
+The issue that everyone is talking about, of course, is that the
+professor reacts in a way that seems cold to questions and people
+asking for help. I don't think that this indicates what the professor
+really feels and I feel bad pointing it out because maybe the
+professor can't do anything about it. But, that's just how it
+be. Pragmatically, I think the professor should at least try to
+minimize sighing. At the same time I want to say again that some
+people are planning to write harsh character judgments of the
+professor that I think are not reasonable at all; the professor tried
+her best to welcome questions and that should be acknowledged.
