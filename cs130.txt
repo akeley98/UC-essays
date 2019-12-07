@@ -1,0 +1,107 @@
+I started this course with a pretty pessimistic attitude, although I
+mellowed out a bit towards the middle because I could see that Dr. Kim
+truly believed in the material being presented and was passionate
+about teaching well. By the end of the course, however, I feel that my
+original pessimism was unfortunately correct. CS130 has the potential
+to be a great course, but it was completely undermined by severe time
+constraints. Although my review is mostly critical, I aim to make it
+constructive -- as I mentioned, Dr. Kim is passionate about software
+engineering techniques, and I don't mean for this review to be a
+personal attack.
+
+The problem with the severe time constraints is not (just) stress; the
+more severe problem is that time limits prevented any sort of real
+understanding of the material. Are you familiar with Feynman's concept
+of "Cargo Cult Science"? I feel like something similar is going on
+with my attempts at truly understanding the software engineering
+techniques being presented: I may have a surface level understanding,
+but not enough to actually implement them in any meaningful way.
+
+Let's start with the main group project as an example. First, in
+principle, we had 5 weeks to complete it, but since most of us have 3
+or 4 classes, plus job searching, in practice it's as if we had a
+little over 1 week's worth of full-time work to finish the
+project. One week is barely enough time to hack together a project,
+let alone try to properly design one with good design patterns, UML
+diagrams, documentation, etc. Second, since we're learning these
+techniques at the same time as we're finishing the project, we're
+really designing the project using our old ad-hoc methods, and then
+"shoehorning" in the design stuff later. These two problems compounded
+to the point where the design documents were just distracting us from
+actually finishing the project, rather than an aid to help us properly
+plan out the project.
+
+Like cargo cult scientists, on the surface it may look my group's
+following good design techniques, but look closely and you'll see
+total chaos. The design documents being turned in were just "yet
+another thing to do" -- presenting a facade of understanding the
+course material without really internalizing it.
+
+I feel the homework gives an even better example of the shallowness of
+my understanding. Consider the last homework's problem on path
+coverage:
+
+int compute(int x, int y, int z) {
+	if (x < y) {
+		if (y >= z) {
+			z = 135;
+		} else {
+			z = x;
+			y = z;
+		}
+	} else {
+		z = -1 * y;
+	}
+
+	if (z > 0 && z < x + y) {
+		x = z + 10;
+	} else {
+		y = z - 10;
+	}
+	return x + y + z;
+}
+
+Do these 15-ish lines of random math operations look anything like
+what you would see in a real program? Does spending, say, 10 minutes
+playing around with this code give us any insight into actually
+testing some real code that does something useful? Not really! The
+problem was really a test in 8th grade algebra skills,
+a.k.a. busywork. All I really got was a 10 minute review of middle
+school math skills (okay, now I have to substitute (z = -y) into this
+statement's precondition and plug-n-chug...)
+
+Consider also the formal proof in-class of this program:
+
+int sum(int[] arr) {
+	int x = 0;
+	for (int i = 0; i < arr.length; ++i) x += arr[i];
+	return x;
+}
+
+If I had to summarize one hour's worth of preconditions and arrows and
+sigmas on the blackboard, it's this: on iteration M, we've summed up
+the first M numbers. To quote Paul Lockhart, "Nothing is more
+mystifying than a proof of the obvious". A tiny example like this does
+nothing to really show the power of formal verification. Of course an
+example like this is a good introduction to the loop invariant proof
+technique, but we shouldn't stop here. We've all done much more
+difficult proofs in CS180 and 181; can't we prove something actually
+interesting instead? (Perhaps 181 should be a prerequisite to this
+class instead of the entirely useless CS 131).
+
+Here's my vision for how a course like CS 130 could be run. Instead of
+one rushed class, it should be two: the first focusing entirely on the
+software engineering techniques, the second entirely on a capstone
+project where we can properly use the techniques learned (possibly
+replacing the worthless CS 131). Strictly splitting the two doubles
+the project time to a more realistic 10 weeks, and prevents the
+problem of shoehorning in recently-learned design techniques into the
+project. And with more time in course 1 for really learning software
+engineering, we could do more meaningful proofs, and more in-depth
+homework assignments. Suppose instead that each assignment was
+refactoring a substantial, 1000-ish line program: simplifying logic
+with design patterns, writing assertions for preconditions, writing
+tests with complete path coverage, and so on. We could actually be
+DOING software engineering, rather than just pretending to do so by
+answering silly questions about tiny contrived programs. Couldn't we
+all be having much more fun?
